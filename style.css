@@ -1,0 +1,177 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'MontrealRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.contenedor{
+    padding: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.separación{
+    content: '';
+    display:block;
+    width: 100px;
+    height: 10px;
+    background-color: orangered;
+    margin: 2.8em 0;
+}
+
+a{
+    display:inline-block;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.margen-top{
+    margin-top: 2.5em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sobre-mí-ul{
+    margin:0;
+    padding:1em; 
+}
+
+.nav-li{
+    list-style: none;
+    margin: 0;    
+}
+
+.nav-li a{
+    padding: .5em;
+    border: 2px solid yellowgreen;
+
+}
+
+.intro{
+    text-align:center;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+@media (min-width: 550px) {
+
+    .contenido{
+        padding: 3em;
+    }
+
+    p, a, span, li{
+        font-size: 1.2rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .proyecto-section-h3 a, h3{
+        font-size: 1.3rem;
+    }
+
+    .proyecto-section{
+        margin-left: 1em;
+    }
+
+    .intro{
+        margin-top: 0;
+    }
+}
+
+
+@media (min-width: 680px) {
+
+    .inicio{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-li a{
+        border: none;
+    }
+
+    .nav li{
+        font-size: 1.1rem;
+        margin-top: 0.3em;
+    }
+    
+}
+
+
+@media (min-width: 820px) {
+
+    .contenido{
+        padding: 0 5em;
+    }
+
+    .inicio{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .nav-li a{
+        border: none;
+    }
+
+    .nav li{
+        font-size: 1.1rem;
+        margin-top: 1.5em;
+    }
+    
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .proyecto-section-h3 a, h3{
+        font-size: 2rem;
+    }
+
+    .proyecto-section{
+        margin-left: 1.7em;
+    }
+
+    .intro{
+        margin-top: 0;
+    }
+
+    img{
+        width: 250px;
+    }
+}
