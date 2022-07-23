@@ -69,7 +69,7 @@ nav ul{
 img{
     display: inline-block;
     max-width: 100%;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
@@ -180,6 +180,6 @@ footer{
     }
 
     img{
-        width: 220px;
+        width: 200px;
     }
 }
