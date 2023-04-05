@@ -71,6 +71,7 @@ img{
     max-width: 100%;
     width: 230px;
     height: auto;
+    border-radius: 50%;
 }
 
 footer{
