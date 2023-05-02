@@ -46,7 +46,7 @@ nav ul{
 }
 
 
-.sobre-mí-ul{
+.sobre-mí-ul, .habilidades-técnicas-ul{
     margin:0;
     padding:1em; 
 }
@@ -74,6 +74,9 @@ img{
     border-radius: 50%;
 }
 
+.cursiva{
+    font-style: italic;
+}
 
 
 @media (min-width: 550px) {
