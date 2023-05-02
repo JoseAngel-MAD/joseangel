@@ -78,6 +78,9 @@ img{
     font-style: italic;
 }
 
+.section-h3-habilidades-técnicas, .section-h3-estudios, .currículum{
+ margin-top: 1em;   
+}
 
 @media (min-width: 550px) {
 
